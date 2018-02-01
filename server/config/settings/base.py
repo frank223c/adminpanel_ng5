@@ -38,6 +38,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework_swagger',
 
     # Useful template tags:
     # 'django.contrib.humanize',
@@ -54,8 +55,13 @@ THIRD_PARTY_APPS = [
 
 # Apps specific for this project go here.
 LOCAL_APPS = [
+    'location',
     # custom users app
     'dashboard.users.apps.UsersConfig',
+    'dashboard.core.apps.CoreConfig',
+    'dashboard.crm.apps.CrmConfig',
+    'dashboard.hr.apps.HrConfig',
+    'dashboard.project.apps.ProjectConfig',
     # Your stuff: custom apps go here
 ]
 

@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
   template: `
     <nb-layout>
       <nb-layout-header fixed>
-        <ngx-header></ngx-header>
+        <ngx-header>
+        <a href="#" class="btn btn-hero-success main-btn">
+            <i class="ion ion-social-github"></i> <span>Support Us</span>
+          </a>
+        </ngx-header>
       </nb-layout-header>
 
       <nb-sidebar class="menu-sidebar" tag="menu-sidebar" responsive>
