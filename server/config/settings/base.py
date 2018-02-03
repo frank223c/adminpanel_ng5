@@ -118,8 +118,6 @@ MANAGERS = ADMINS
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
 
-print (str(ROOT_DIR.path('settings')) + '/my.cnf')
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
